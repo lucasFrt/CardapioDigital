@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background-color: #fffefe;
+}
+
+#cabeca{
+    margin-top: 20px;
+    text-align: center;
+    color: #5f7059;
+    margin-bottom: 20px
+}
+#principal{
+    position: relative;
+    text-align: center;
+    color: #f6f4f4;
+    height: 135px;
+    box-sizing: border-box;
+    background-color: #5f7059;
+}
+#principal h1{
+    position: relative;
+    margin-right: 10%;
+    top: 40px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+#principal img {
+    height: 100px;
+    position: relative;
+    float: left;
+    margin-left: 3%;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: 1.3%;
+}
+
+#principal img:hover{
+    transform: scale(1.1);
+}
+
+#barra55, #barra1, #barra2, #barra3, #barra4, #barra5, #barra6, #barra7, #barra8, #barra9, #barra10, #barra11, #barra12, #barra13, #barra14, #barra15{
+    background-color: white;
+    border: 1px solid #f6f4f4;
+    height: 135px;
+    width: 70%;
+    border-radius: 5px;
+    margin: 0px auto;
+    margin-bottom: 3px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    
+}
+#barra1 img, #barra55 img, #barra3 img{
+    height: 110px;
+    position: relative;
+    float: right;
+    margin-right: 5%;
+    border-radius: 5px;
+    margin-top: 1.5%;
+}
+
+#barra:hover, #barra1:hover, #barra2:hover {
+    background-color: rgba(202, 202, 202, 0.247);
+}
+
+#barra1 {
+    border-top-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+}
+#barra2 {
+    border-bottom-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+}
+
+
+#sub {
+    display: block;
+    color: #5f7059;
+    display: block;
+    text-align: left;
+    margin-left: 15%;
+}
+
+#precos{
+    font-weight: bolder;
+}
+
+#precos, #prato, #desc {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+footer p {
+    margin-top: 25px;
+}
+footer hr{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#barra img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 5%;
+    left: 935px;
+    top: 1427px;
+}
