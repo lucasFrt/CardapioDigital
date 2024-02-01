@@ -42,7 +42,7 @@ body {
     transform: scale(1.1);
 }
 
-#barra55, #barra1, #barra2, #barra3, #barra4, #barra5, #barra6, #barra7, #barra8, #barra9, #barra10, #barra11, #barra12, #barra13, #barra14, #barra15{
+#barra0, #barra1, #barra2, #barra3, #barra4, #barra5, #barra6, #barra7, #barra8, #barra9, #barra10, #barra11, #barra12, #barra13, #barra14, #barra15{
     background-color: white;
     border: 1px solid #f6f4f4;
     height: 135px;
@@ -53,18 +53,19 @@ body {
     box-sizing: border-box;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position: relative;
-    
+    transition: 0.2s;
 }
-#barra1 img, #barra55 img, #barra3 img{
+#barra1 img, #barra0 img, #barra3 img{
     height: 110px;
     position: relative;
     float: right;
     margin-right: 5%;
     border-radius: 5px;
     margin-top: 1.5%;
+    
 }
 
-#barra:hover, #barra1:hover, #barra2:hover {
+#barra0:hover, #barra1:hover, #barra2:hover, #barra3:hover, #barra4:hover, #barra5:hover, #barra6:hover, #barra7:hover, #barra8:hover, #barra9:hover, #barra10:hover, #barra11:hover, #barra12:hover, #barra13:hover, #barra14:hover, #barra15:hover {
     background-color: rgba(202, 202, 202, 0.247);
 }
 
