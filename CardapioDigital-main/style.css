@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fffefe;
+}
+#cabeca{
+    margin-top: 20px;
+    text-align: center;
+    color: #5f7059;
+    margin-bottom: 20px
+}
+#principal{
+    position: relative;
+    text-align: center;
+    color: #f6f4f4;
+    height: 135px;
+    background-color: #5f7059;
+}
+#principal h1{
+    position: relative;
+    margin-right: 10%;
+    top: 40px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+#principal img {
+    height: 100px;
+    position: relative;
+    float: left;
+    margin-left: 3%;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: 1.3%;
+}
+
+#principal img:hover{
+    transform: scale(1.1);
+}
+
+#barra0, #barra1, #barra2, #barra3, #barra4, #barra5, #barra6, #barra7, #barra8, #barra9, #barra10, #barra11, #barra12, #barra13, #barra14, #barra15{
+    background-color: white;
+    border: 1px solid #f6f4f4;
+    height: 135px;
+    width: 70%;
+    border-radius: 5px;
+    margin: 0px auto;
+    margin-bottom: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    transition: 0.2s;
+}
+#barra1 img, #barra0 img, #barra3 img{
+    height: 110px;
+    position: relative;
+    float: right;
+    margin-right: 5%;
+    border-radius: 5px;
+    margin-top: 1.5%;
+    
+}
+
+#barra0:hover, #barra1:hover, #barra2:hover, #barra3:hover, #barra4:hover, #barra5:hover, #barra6:hover, #barra7:hover, #barra8:hover, #barra9:hover, #barra10:hover, #barra11:hover, #barra12:hover, #barra13:hover, #barra14:hover, #barra15:hover {
+    background-color: rgba(202, 202, 202, 0.247);
+}
+
+#barra1 {
+    border-top-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+}
+#barra2 {
+    border-bottom-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+}
+
+
+#sub {
+    display: block;
+    color: #5f7059;
+    display: block;
+    text-align: left;
+    margin-left: 15%;
+}
+
+#precos{
+    font-weight: bolder;
+}
+
+#precos, #prato, #desc {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+footer p {
+    margin-top: 25px;
+}
+footer hr{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#barra img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 5%;
+    left: 935px;
+    top: 1427px;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+
+button{
+    padding: 0.5rem 0.6rem;
+    background-color: #888;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 1rem;
+    transition: 0.4s;
+}
+#abrir-modal{
+    background-color: #5f7059;
+}
+button:hover{
+    opacity: 1;
+}
+#fade{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000077;
+    
+}
+#modal{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    z-index: 10;
+    width: 500px;
+    max-width: 90%;
+    padding: 1.2rem;
+    border-radius: 5px;
+}
+.modal-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+
+}
+.modal-head p {
+    margin-bottom: 3px;
+}
+.modal-body p {
+    margin-bottom: 25px;
+}
+#modal.hide,
+#fade.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+#fade,
+#modal{
+    transition: 0.5s;
+    opacity: 1;
+    pointer-events: all;
+}
+#modal.hide{
+    top: 0;
+}
